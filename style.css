@@ -61,3 +61,40 @@ main{
     border-width:0px 0px 1px 0px;
     border-bottom:#2F3F51 1px solid;
 }
+
+.status{
+    margin:13px 0px;
+    Padding:5px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.status .btn{
+    background: rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:6px !important;
+}
+
+.status .btn:hover{
+    background: #090;
+}
+
+.status .btn:focus{
+    background: #090;
+}
+
+.status .btn:active{
+    background: #090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

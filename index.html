@@ -10,6 +10,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Style.css starts-->
     <link href="/style.css" rel="stylesheet" type="text/css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-7JYDK6qMye3ZeRo6e0q5LpyDN7R+FH0GPyHcf9n2Y6HAyQ/D5WdOjhO1Pdj1YoDZ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,7 +26,7 @@
 
     <main>
         <section class="d-flex">
-            <div class="side-menu">
+            <div class="side-menu d-flex flex-column">
                 <div class="logo d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" viewBox="0 0 77 47" fill="none">
                         <g clip-path="url(#clip0_1_283)">
@@ -41,7 +43,10 @@
                     <span>Agent</span>
                     <h3>Agent 1001</h3>
                 </div>
-
+                <div class="btn-group status" role="group" >
+                    <button type="button" class="btn btn-primary">Active</button>
+                    <button type="button" class="btn btn-primary">Pause</button>
+                  </div>
             
             </div>
 
