@@ -96,12 +96,12 @@ main {
 /*tools button group*/
 
 .tools-btn{
-    padding:20px 0px;
+    padding:10px 0px !important;
 }
 
 .tools-btn span {
     color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
+    font-size: 14px !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
