@@ -87,6 +87,15 @@ main{
 }
 
 
+/*tools button group*/
+
+.tools-btn span{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
