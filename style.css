@@ -175,12 +175,12 @@ button.btn.tools-btn:hover{
 
 .phone-dial .form-check-input:focus{
     box-shadow:0 0 0 0;
-    border:solid 1px #fff;
+    border:solid 1px #fff !important;
 }
 
 .phone-dial .form-check-input:checked{
-    background-color:#34C759;
-    border:solid 1px #34c759;
+    background-color:#34C759 !important;
+    border:solid 1px #34c759 !important;
 }
 
 .callback{
@@ -195,3 +195,17 @@ button.btn.tools-btn:hover{
     line-height: normal;
     margin-bottom:0px !important;
 }
+
+/*queue bar*/
+.queue-bar{
+    padding:14px 18px;
+    border-radius: 10px;
+    background: #0C161E;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
+    height:auto;
+}
+
+.customer-details span{
+    margin-bottom:5px;
+}
+
