@@ -48,7 +48,7 @@ main {
 
 
 .side-menu {
-    background-color: #263238;
+    background-color:#0A1D32;;
     padding: 20px;
     width: 240px;
     border-radius: 20px;
@@ -164,4 +164,10 @@ button.btn.tools-btn:hover{
     
 }
 
+.phone-dial .form-check-input{
+    background-color: rgba(255, 255, 255, 0.15);
+}
 
+.phone-dial .form-check-input:active{
+    background-color: rgba(255, 255, 255, 0.15);
+}
