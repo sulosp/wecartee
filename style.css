@@ -175,12 +175,12 @@ button.btn.tools-btn:hover{
 
 .phone-dial .form-check-input:focus{
     box-shadow:0 0 0 0;
-    border-style:solid 1px #fff;
+    border:solid 1px #fff;
 }
 
 .phone-dial .form-check-input:checked{
     background-color:#34C759;
-    border:none;
+    border:solid 1px #34c759;
 }
 
 .callback{
