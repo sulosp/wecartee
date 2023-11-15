@@ -1,26 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body{
-    background-color:#000;
-    height:100vh;
-    overflow:auto;
+body {
+    background-color: #000 !important;
+    height: 100vh;
+    overflow: auto;
 }
 
 
-h1, h2, h3, h4, h5, h6, span, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
     font-family: 'poppins', sans-serif;
 }
 
-span{
+span {
     color: rgba(255, 255, 255, 0.60);
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-h3{
+h3 {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -28,82 +34,75 @@ h3{
     line-height: normal;
 }
 
-.logo-text{
-    color:#fff;
+.logo-text {
+    color: #fff;
 }
 
-header{
-    padding:20px;
+header {
+    padding: 20px;
 }
 
-main{
-    padding:20px;
+main {
+    padding: 20px;
 }
 
 
-.side-menu{
-    background-color:#263238;
-    padding:20px;
-    width:240px;
-    border-radius:20px;
+.side-menu {
+    background-color: #263238;
+    padding: 20px;
+    width: 240px;
+    border-radius: 20px;
 }
 
-.logo{
-    background-color:#000;
-    padding:7px 69px;
-    border-radius:20px;
+.logo {
+    background-color: #000;
+    padding: 7px 69px;
+    border-radius: 20px;
 }
 
-.agent-details{
-    color:#fff;
-    padding:13px 0px;
-    border-style:solid;
-    border-width:0px 0px 1px 0px;
-    border-bottom:#2F3F51 1px solid;
+.agent-details {
+    color: #fff;
+    padding: 13px 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-bottom: #2F3F51 1px solid;
 }
 
-.status{
-    margin:13px 0px;
-    Padding:5px;
+.status {
+    margin: 13px 0px;
+    Padding: 5px;
     background: rgba(255, 255, 255, 0.15);
 }
 
-.status .btn{
+.status .btn {
     background: rgba(255, 255, 255, 0);
-    border:none;
-    border-radius:6px !important;
+    border: none;
+    border-radius: 6px !important;
 }
 
-.status .btn:hover{
+.status .btn:hover {
     background: #090;
 }
 
-.status .btn:focus{
+.status .btn:focus {
     background: #090;
 }
 
-.status .btn:active{
+.status .btn:active {
     background: #090;
 }
 
 
 /*tools button group*/
 
-.tools-btn span{
+.tools-btn{
+    padding:20px 0px;
+}
+
+.tools-btn span {
     color: rgba(255, 255, 255, 0.50);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
