@@ -52,6 +52,7 @@ main {
     padding: 20px;
     width: 240px;
     border-radius: 20px;
+    height:100%;
 }
 
 .logo {
@@ -170,4 +171,27 @@ button.btn.tools-btn:hover{
 
 .phone-dial .form-check-input:active{
     background-color: rgba(255, 255, 255, 0.15);
+}
+
+.phone-dial .form-check-input:focus{
+    box-shadow:0 0 0 0;
+    border-style:solid 1px #fff;
+}
+
+.phone-dial .form-check-input:checked{
+    background-color:#34C759;
+    border:none;
+}
+
+.callback{
+    margin:20px 0px;
+}
+
+.callback span{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:0px !important;
 }
