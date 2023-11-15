@@ -203,9 +203,30 @@ button.btn.tools-btn:hover{
     background: #0C161E;
     box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
     height:auto;
+    border-top:solid #090 2px;
+
+
 }
 
 .customer-details span{
     margin-bottom:5px;
 }
+
+.customer-details span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customer-details h3{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
 
