@@ -69,9 +69,19 @@ main {
 }
 
 .status {
-    margin: 13px 0px;
+    margin: 20px 0px;
     Padding: 5px;
     background: rgba(255, 255, 255, 0.15);
+    
+}
+
+
+.status span{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .status .btn {
@@ -89,20 +99,69 @@ main {
 }
 
 .status .btn:active {
-    background: #090;
+    background: #090 !important;
 }
 
 
 /*tools button group*/
 
+
+.tools{
+    padding:20px 0px;
+    border-bottom: #2F3F51 1px solid;
+    border-top: #2F3F51 1px solid; 
+}
+
+.tools h3{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
 .tools-btn{
-    padding:10px 0px !important;
+    padding:10px 5px !important;
 }
 
 .tools-btn span {
+
     color: rgba(255, 255, 255, 0.50);
     font-size: 14px !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+button.btn.tools-btn:hover{
+    background-color:rgba(255, 255, 255, 0.15);
+}
+
+.phone-dial{
+    margin:20px 0px;
+}
+
+.phone-dial label{
+    color:#fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phone-dial{
+    padding:5px 10px !important;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius:6px;
+}
+
+.phone-dial input#flexSwitchCheckChecked{
+    padding:0px !important;
+    width:50px;
+    height:30px;
+    margin-top:0px;
+    
+}
+
+
