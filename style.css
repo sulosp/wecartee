@@ -245,9 +245,9 @@ button.btn.tools-btn:hover{
 
 
 footer{
-    padding:20px;
+    padding:20px !important;
     background: #0C161E;
-    margin-top:20px;
+    margin-top:20px !important;
 }
 
 footer span{
