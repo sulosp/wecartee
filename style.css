@@ -227,6 +227,34 @@ font-weight: 400;
 line-height: normal;
 }
 
+/*Customer info starts*/
+
+.customer-info{
+    background: rgba(255, 255, 255, 0.12);
+    
+}
+
+.top-menu span{
+    color: var(--ffffff, #FFF);
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 
 
+footer{
+    padding:20px;
+    background: #0C161E;
+    margin-top:20px;
+}
 
+footer span{
+    color: #DEDEDE;    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
