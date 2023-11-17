@@ -4,8 +4,8 @@ body {
     background-color: #000 !important;
     height: 100vh;
     overflow: auto;
-    
-    
+
+
 }
 
 
@@ -48,16 +48,17 @@ main {
     padding: 20px;
 }
 
-.main{
-    gap:30px;
+.main {
+    gap: 30px;
 }
 
 .side-menu {
-    background-color:#0A1D32;;
+    background-color: #0A1D32;
+    ;
     padding: 20px;
     width: 240px;
     border-radius: 20px;
-    height:100%;
+    height: 100%;
 }
 
 .logo {
@@ -78,11 +79,11 @@ main {
     margin: 20px 0px;
     Padding: 5px;
     background: rgba(255, 255, 255, 0.15);
-    
+
 }
 
 
-.status span{
+.status span {
     color: #FFF;
     font-size: 14px;
     font-style: normal;
@@ -112,13 +113,13 @@ main {
 /*tools button group*/
 
 
-.tools{
-    padding:20px 0px;
+.tools {
+    padding: 20px 0px;
     border-bottom: #2F3F51 1px solid;
-    border-top: #2F3F51 1px solid; 
+    border-top: #2F3F51 1px solid;
 }
 
-.tools h3{
+.tools h3 {
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -127,8 +128,8 @@ main {
 }
 
 
-.tools-btn{
-    padding:10px 5px !important;
+.tools-btn {
+    padding: 10px 5px !important;
 }
 
 .tools-btn span {
@@ -140,88 +141,88 @@ main {
     line-height: normal;
 }
 
-button.btn.tools-btn:hover{
-    background-color:rgba(255, 255, 255, 0.15);
+button.btn.tools-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
-.phone-dial{
-    margin:20px 0px;
+.phone-dial {
+    margin: 20px 0px;
 }
 
-.phone-dial label{
-    color:#fff;
+.phone-dial label {
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.phone-dial{
-    padding:5px 10px !important;
+.phone-dial {
+    padding: 5px 10px !important;
     background: rgba(255, 255, 255, 0.15);
-    border-radius:6px;
+    border-radius: 6px;
 }
 
-.phone-dial input#flexSwitchCheckChecked{
-    padding:0px !important;
-    width:50px;
-    height:30px;
-    margin-top:0px;
-    
+.phone-dial input#flexSwitchCheckChecked {
+    padding: 0px !important;
+    width: 50px;
+    height: 30px;
+    margin-top: 0px;
+
 }
 
-.phone-dial .form-check-input{
+.phone-dial .form-check-input {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.phone-dial .form-check-input:active{
+.phone-dial .form-check-input:active {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.phone-dial .form-check-input:focus{
-    box-shadow:0 0 0 0;
-    border:solid 1px #fff !important;
+.phone-dial .form-check-input:focus {
+    box-shadow: 0 0 0 0;
+    border: solid 1px #fff !important;
 }
 
-.phone-dial .form-check-input:checked{
-    background-color:#34C759 !important;
-    border:solid 1px #34c759 !important;
+.phone-dial .form-check-input:checked {
+    background-color: #34C759 !important;
+    border: solid 1px #34c759 !important;
 }
 
-.callback{
-    margin:20px 0px;
+.callback {
+    margin: 20px 0px;
 }
 
-.callback span{
+.callback span {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom:0px !important;
+    margin-bottom: 0px !important;
 }
 
-.content{
-    gap:30px;
+.content {
+    gap: 30px;
 }
 
 /*queue bar*/
-.queue-bar{
-    padding:14px 18px;
+.queue-bar {
+    padding: 14px 18px;
     border-radius: 10px;
     background: #0C161E;
     box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
-    height:auto;
-    border-top:solid #090 2px;
+    height: auto;
+    border-top: solid #090 2px;
 
 
 }
 
-.customer-details span{
-    margin-bottom:5px;
+.customer-details span {
+    margin-bottom: 5px;
 }
 
-.customer-details span{
+.customer-details span {
     color: rgba(255, 255, 255, 0.60);
     font-size: 12px;
     font-style: normal;
@@ -229,7 +230,7 @@ button.btn.tools-btn:hover{
     line-height: normal;
 }
 
-.customer-details h3{
+.customer-details h3 {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -238,12 +239,22 @@ button.btn.tools-btn:hover{
 
 /*Customer info starts*/
 
-.customer-info{
-    background: rgba(255, 255, 255, 0.12);
-    
+.customer-info {
+    padding: 0px !important;
+    border-radius: 20px;
+    background: #26384A;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.47);
+
 }
 
-.top-menu span{
+.title-bar {
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(255, 255, 255, 0.12);
+
+}
+
+.title-bar span {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -251,15 +262,53 @@ button.btn.tools-btn:hover{
     line-height: normal;
 }
 
-
-footer{
-    padding:20px;
-    background: #0C161E;
-    margin-top:20px;
+.window-control .btn {
+    padding: 0px;
 }
 
-footer span{
-    color: #DEDEDE;    
+.window-control .btn:focus {
+    border: none;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form label {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+input {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.form input {
+    border-radius: 5px;
+    background: #0A1D32;
+    border: none;
+}
+
+/*footer starts*/
+
+footer {
+    padding: 20px;
+    background: #0C161E;
+    margin-top: 20px;
+}
+
+footer span {
+    color: #DEDEDE;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
