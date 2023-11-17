@@ -5,6 +5,7 @@ body {
     height: 100vh;
     overflow: auto;
     
+    
 }
 
 
@@ -47,6 +48,9 @@ main {
     padding: 20px;
 }
 
+.main{
+    gap:30px;
+}
 
 .side-menu {
     background-color:#0A1D32;;
@@ -195,6 +199,10 @@ button.btn.tools-btn:hover{
     font-weight: 400;
     line-height: normal;
     margin-bottom:0px !important;
+}
+
+.content{
+    gap:30px;
 }
 
 /*queue bar*/
