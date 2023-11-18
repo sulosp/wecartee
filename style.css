@@ -285,6 +285,7 @@ button.btn.tools-btn:hover {
 
 
 .form-control {
+    color:#fff;
     border-radius: 5px;
     background: #0A1D32 !important;
     border: none !important;
