@@ -272,6 +272,11 @@ button.btn.tools-btn:hover {
 
 .form {
     padding: 20px;
+    gap:20px;
+}
+
+.form-row{
+    gap:20px;
 }
 
 .form label {
