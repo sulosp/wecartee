@@ -286,14 +286,20 @@ button.btn.tools-btn:hover {
 
 .form-control {
     border-radius: 5px;
-    background: #0A1D32;
-    border: none;
-}
+    background: #0A1D32 !important;
+    border: none !important;
+    box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+ }
 
-.form-control:focus{
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
-    border:none !important;
-}
+ .form-control:focus {
+    background: #fff !important;
+ }
+
+ .form-control:visited {
+    color:#000;
+    background: #fff !important;
+ }
+
 
 input.form-control::placeholder {
     color: #DEDEDE;
