@@ -251,7 +251,6 @@ button.btn.tools-btn:hover {
     padding: 20px;
     border-radius: 20px 20px 0px 0px;
     background: rgba(255, 255, 255, 0.12);
-
 }
 
 .title-bar span {
@@ -276,28 +275,22 @@ button.btn.tools-btn:hover {
 
 .form label {
     color: #FFF;
+    font-family:'poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
-input {
-    color: #fff;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.5;
+.form input {   
+   background-color:#0A1D32;
+   border-radius: 5px;    
+   border: none;
 }
 
-.form input {
-    border-radius: 5px;
-    background: #0A1D32;
-    border: none;
-}
+
+
+
 
 /*footer starts*/
 
