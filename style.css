@@ -56,7 +56,7 @@ main {
     background-color: #0A1D32;
     border-radius: 20px;
     height: auto;
-    padding:20px;
+    padding:15px;
     width:18%;
 }
 
@@ -80,7 +80,7 @@ main {
     margin: 20px 0px;
     Padding: 5px;
     background: rgba(255, 255, 255, 0.15);
-
+    
 }
 
 
@@ -92,12 +92,14 @@ main {
     line-height: normal;
 }
 
+
 .status .btn {
     background: rgba(255, 255, 255, 0);
     border: none;
-    border-radius: 6px !important;
+    border-radius: 6px !important;    
     
 }
+
 
 .status .btn:hover {
     background: #090;
@@ -325,11 +327,20 @@ footer span {
     line-height: normal;
 }
 
+/* medium sized screen */
 
 @media (min-width:768px) and (max-width:1024px){
 
     .logo{
         padding:20px;
+    }
+
+    .agent-details{
+        text-align: center;
+    }
+
+    .status{
+        flex-wrap:wrap;
     }
 
     .status .btn{
@@ -339,6 +350,7 @@ footer span {
         align-items: center;
         gap:10px;
         padding:10px;
+        min-width:100%;
     }
 
     .tools-btn div{
@@ -348,8 +360,7 @@ footer span {
         justify-content: center;
         align-items: center;
         gap:10px;
-        width:100%;
-        
+        width:100%;      
     }
       
     .btn-arrow{
