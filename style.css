@@ -56,20 +56,29 @@ main {
     background-color: #0A1D32;
     border-radius: 20px;
     height: 100%;
+    padding:20px;
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:993px){
     .side-menu{
-    padding: 2%;
-    width: 20%;    
-    }
+    width: 18%;    
+    }  
+
+    
 }
 
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:992px){
     .side-menu{
-        padding:20px;
         width:240px;
+
     }
+
+    .phone-dial .form-check-label{
+        width:50%;
+    }
+
+   
+   
 }
 
 .logo {
