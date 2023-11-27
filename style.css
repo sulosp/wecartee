@@ -339,6 +339,10 @@ footer span {
 
 @media (min-width:768px) and (max-width:1024px){
 
+    .logo{
+        padding:20px;
+    }
+
     .status .btn{
         display:flex;
         flex-direction: column;
