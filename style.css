@@ -55,29 +55,16 @@ main {
 .side-menu {
     background-color: #0A1D32;
     border-radius: 20px;
-    height: 100%;
+    height: auto;
     padding:20px;
+    width:18%;
 }
 
-@media only screen and (min-width:993px){
+
+@media (max-width:992px){
     .side-menu{
-    width: 18%;    
+        min-width:240px;
     }  
-
-    
-}
-
-@media only screen and (max-width:992px){
-    .side-menu{
-        width:240px;
-
-    }
-
-    .phone-dial .form-check-label{
-        width:50%;
-    }
-
-   
    
 }
 
@@ -116,6 +103,7 @@ main {
     background: rgba(255, 255, 255, 0);
     border: none;
     border-radius: 6px !important;
+    
 }
 
 .status .btn:hover {
@@ -153,6 +141,15 @@ main {
     padding: 10px 5px !important;
 }
 
+@media (min-width:992px) and (max-width:1024px){
+    .tools-btn div{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+
 .tools-btn span {
 
     color: rgba(255, 255, 255, 0.50);
@@ -166,8 +163,9 @@ button.btn.tools-btn:hover {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.phone-dial {
+.phone-dial{
     margin: 20px 0px;
+    gap:10px;
 }
 
 .phone-dial label {
@@ -175,8 +173,14 @@ button.btn.tools-btn:hover {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;    
 }
+
+@media (max-width:992px) {
+    .phone-dial label {
+      font-size:12px;
+    }
+  }
 
 .phone-dial {
     padding: 5px 10px !important;
@@ -221,6 +225,7 @@ button.btn.tools-btn:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0px !important;
+    text-align: center;
 }
 
 .content {
