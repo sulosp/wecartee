@@ -248,13 +248,14 @@ button.btn.tools-btn:hover {
 
 /*Customer info starts*/
 
-.customer-info {
+.customer-info  {
     padding: 0px !important;
     border-radius: 20px;
     background: #26384A;
     box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.47);
 
 }
+
 
 .title-bar {
     padding: 20px !important;
@@ -318,6 +319,26 @@ input {
    border-style:none !important;
 }
 
+textarea{
+    background-color:#0A1D32!important;
+    border-style:none !important;
+}
+
+/*scripts starts*/
+
+.scripts{
+    padding:0px !important;
+    margin:0px !important;
+    border-radius: 20px;
+    background: #26384A;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.47);
+   
+}
+
+
+
+
+
 /*footer starts*/
 
 footer {
@@ -333,6 +354,7 @@ footer span {
     font-weight: 400;
     line-height: normal;
 }
+
 
 /* medium sized screen */
 
