@@ -29,8 +29,8 @@
 
     <main>
         <section class="main d-flex flex-row">
-            <div class="side-menu d-flex flex-column">
-                <div class="logo d-flex">
+            <div class="side-menu">
+                <div class="logo d-flex justify-content-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" viewBox="0 0 77 47" fill="none">
                         <g clip-path="url(#clip0_1_283)">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -48,7 +48,7 @@
                     <span>Agent</span>
                     <h3>Agent 1001</h3>
                 </div>
-                <div class="btn-group status" role="group">
+                <div class="btn-group status d-flex flex-row flex-wrap gap-1" role="group">
                     <button type="button" class="btn btn-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path
@@ -121,15 +121,14 @@
                     </button>
                 </div>
 
-                <div
-                    class="phone-dial container-fluid d-inline-flex justify-content-between align-content-between align-items-center form-check form-switch container-fluid d-flex flex-row flex-nowrap justify-content-between">
-                    <label class="form-check-label" for="flexSwitchCheckChecked">Alt Phone Dial</label>
+                <div class="phone-dial container-fluid h-auto d-inline-flex flex-wrap gap-2 justify-content-between align-items-center form-check form-switch">                    
+                    <label class="form-check-label text-wrap w-50" for="flexSwitchCheckChecked">Alt Phone Dial</label>
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
                 </div>
 
                 <div
                     class="callback container-fluid d-flex flex-column justify-content-center align-items-center gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="190" height="121" viewBox="0 0 190 121" fill="none">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 190 121" fill="none">
                         <path d="M92.9811 43.687H75.5677V48.2936H92.9811V43.687Z" fill="#EBEBEB" />
                         <path
                             d="M85.6184 53.1471C85.6184 53.1471 85.6184 53.1185 85.6112 53.0648C85.6112 53.004 85.6112 52.9252 85.6041 52.8286C85.6041 52.6102 85.5969 52.3096 85.5898 51.923C85.5826 51.1284 85.5719 49.983 85.5611 48.5441L85.6148 48.5978C81.6382 48.605 75.3136 48.6193 68.2015 48.6336C68.2409 48.5942 68.112 48.7231 68.2874 48.5441V48.8376V49.1347C68.2874 49.3316 68.2874 49.5284 68.2874 49.7217C68.2874 50.1119 68.2874 50.4984 68.2874 50.885C68.2874 51.6546 68.2874 52.4098 68.2874 53.1507L68.2015 53.0648C73.1588 53.0791 77.5005 53.0934 80.611 53.1042C82.1608 53.1149 83.4064 53.1221 84.2726 53.1292C84.6949 53.1328 85.0278 53.1364 85.264 53.14C85.3714 53.14 85.4573 53.1435 85.5218 53.1471C85.579 53.1471 85.6112 53.1507 85.6148 53.1543C85.6148 53.1543 85.5898 53.1579 85.5325 53.1614C85.4681 53.1614 85.3857 53.1614 85.2855 53.1686C85.0529 53.1686 84.7271 53.1758 84.3155 53.1793C83.4529 53.1865 82.2145 53.1937 80.6718 53.2044C77.5435 53.2151 73.1839 53.2294 68.2015 53.2438H68.1156V53.1579C68.1156 52.4169 68.1156 51.6617 68.1156 50.8922C68.1156 50.5092 68.1156 50.119 68.1156 49.7289C68.1156 49.532 68.1156 49.3387 68.1156 49.1419V48.8448V48.698V48.5585V48.5513C68.2946 48.3723 68.1657 48.5012 68.2051 48.4618C75.3172 48.4761 81.6418 48.4869 85.6184 48.4976H85.6721V48.5513C85.6578 50.0081 85.6506 51.1606 85.6435 51.9624C85.6363 52.3454 85.6327 52.6424 85.6291 52.8572C85.6291 52.9503 85.6256 53.0254 85.622 53.0827C85.622 53.1328 85.622 53.1579 85.6184 53.1543V53.1471Z"
