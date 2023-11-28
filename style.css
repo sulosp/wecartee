@@ -338,9 +338,9 @@ textarea{
 .scripts-pane{
     background-color:#26384A;
     padding:30px;
+    border-radius:0px 0px 20px 20px;
+    overflow:hidden;
 }
-
-
 
 
 
