@@ -336,7 +336,7 @@ textarea {
 }
 
 .scripts-pane {
-    padding: 30px;
+    
     border-radius: 0px 0px 20px 20px;
     overflow: hidden;
     background-color:#26384A;
@@ -345,6 +345,9 @@ textarea {
 
 #gridCanvas {
     background: #0A1D32;
+    display:block;
+    margin:30px;
+    
 }
 
 
