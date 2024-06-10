@@ -2,66 +2,113 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Tailwind CSS starts-->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="tailwind.config.js"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <!--tailwind configuration-->
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
 
-    <!--css starts-->
-    <link href="style.css" type="text/tailwindcss">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/65377e06b1.js" crossorigin="anonymous"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  </script>
+
 
 </head>
 
-<body>
-    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-        <div class="sm:mx-auto sm:w-full sm:max-w-sm justify-center">
-            <svg  width="auto" height="48" viewBox="0 0 77 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M63.5812 5.9976V23.4298C63.3433 23.5572 63.119 23.7091 62.9119 23.883C61.4997 25.1428 60.0207 26.3238 58.4813 27.4209V5.9976H63.5812ZM12.5959 4.24559C12.5678 3.20106 12.9394 2.18583 13.6333 1.41124C14.0049 0.988706 14.4575 0.646756 14.9637 0.406077C15.4698 0.165397 16.019 0.0309901 16.5781 0.0109853C17.1733 -0.00647443 17.765 0.11011 18.3102 0.352293C18.8554 0.594476 19.3405 0.956193 19.7303 1.41124C20.1199 1.76961 20.4294 2.20774 20.6382 2.69647C20.8471 3.18519 20.9506 3.71329 20.9417 4.24559C20.9633 4.83064 20.8652 5.4139 20.6535 5.95887C20.4419 6.50385 20.1212 6.99881 19.7116 7.41279C19.3021 7.82677 18.8124 8.15086 18.2732 8.36479C17.734 8.57872 17.1569 8.67788 16.5781 8.65606C15.4739 8.63033 14.4209 8.18042 13.6333 7.39786C12.9167 6.51125 12.5475 5.38937 12.5959 4.24559ZM10.3137 6.17348L16.8592 17.0914L23.7527 6.17348H31.0545L20.4264 23.5313V37.013H13.3856V23.5313L3.07211 6.17348H10.3137ZM25.1381 19.7567L30.2982 10.0631V14.4736H35.1839L35.0768 19.5808H30.2982V28.7467C30.2982 30.4965 30.644 31.6623 31.3356 32.244C32.1577 32.9099 33.1117 33.3898 34.1331 33.651L35.4114 33.9284L33.0556 38.4065C32.9356 38.4277 32.8186 38.4641 32.7076 38.5147L31.1482 37.9871C29.5591 37.5089 28.1171 36.6288 26.9585 35.4301C26.3104 34.6567 25.8375 33.7493 25.5731 32.7716C25.3136 31.648 25.1966 30.4955 25.2251 29.342V19.7567H25.1381ZM10.7621 31.7231C7.38892 33.978 5.99237 35.7976 6.57241 37.1821C7.79495 40.3073 11.8931 41.8361 18.867 41.7685C23.5427 41.6629 28.191 41.0161 32.721 39.8406C32.846 39.8025 32.9638 39.743 33.069 39.6647C35.6301 38.9341 38.1912 38.1179 40.7522 37.2159C41.2438 37.1893 41.7245 37.0603 42.1644 36.8371C45.8408 35.4391 49.4186 33.7892 52.8728 31.899C54.788 30.8701 56.6488 29.7412 58.4479 28.5167C60.0184 27.466 61.4953 26.3814 62.8784 25.263C63.0595 25.0209 63.2871 24.8184 63.5477 24.6677C68.3263 20.4196 70.1378 16.8118 68.9822 13.8445C68.4959 12.911 67.5031 12.5028 66.004 12.6201C72.2818 10.9154 75.8512 11.1409 76.7124 13.2965C77.7966 16.1196 75.0258 20.6699 68.4 26.9474C66.8294 28.2552 65.2008 29.5495 63.5143 30.8302C61.9437 31.9486 60.3508 33.0332 58.7356 34.084C53.5903 37.0287 48.1863 39.4857 42.5927 41.4235C32.1788 44.9005 22.809 46.7562 14.4832 46.9907C6.06822 47.2387 1.30745 45.9084 0.20092 42.9996C-0.910075 40.2442 2.61031 36.4854 10.7621 31.7231ZM57.0691 27.8403H40.1566C40.3102 29.0926 40.8299 30.2702 41.6491 31.2226C42.2379 31.7832 42.9363 32.2131 43.6993 32.4846C44.4624 32.756 45.2732 32.863 46.0797 32.7987C47.6502 32.6363 48.875 32.4605 49.754 32.2711C47.2866 33.4481 44.7567 34.5259 42.1644 35.5045C41.6335 35.6894 41.1717 35.8653 40.779 36.0321C39.0836 35.1158 37.6692 33.7471 36.6898 32.0749C35.5438 30.2327 34.966 28.0875 35.03 25.9124C35.03 22.3046 36.0696 19.3981 38.1488 17.1929C39.1287 16.1853 40.3087 15.3991 41.6112 14.8861C42.9136 14.3731 44.3088 14.1449 45.7049 14.2165C47.7794 14.0576 49.8536 14.5287 51.6614 15.5694C53.386 16.547 54.7838 18.0211 55.6771 19.804C56.623 21.4365 57.0959 23.8402 57.0959 27.015L57.0691 27.8403ZM45.8789 18.7758C44.35 18.7232 42.8605 19.2711 41.7227 20.3046C41.2244 20.7538 40.8269 21.3055 40.5568 21.9227C40.2867 22.5398 40.1503 23.2082 40.1566 23.883H51.735C51.7345 23.1805 51.5862 22.4861 51.3 21.8459C51.0139 21.2056 50.5964 20.6341 50.0752 20.1693C48.8989 19.1893 47.4011 18.6919 45.8789 18.7758Z" fill="#0C161E"/>
-                </svg>
-                
-          <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Access Your Account</h2>
-        </div>
-      
-        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form class="space-y-6" action="#" method="POST">
-            <div>
-              <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
-              <div class="mt-2">
-                <input id="email" name="email" type="email" autocomplete="email" required class="block w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6">
-              </div>
-            </div>
-      
-            <div>
-              <div class="flex items-center justify-between">
-                <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
-                
-              </div>
-              <div class="mt-2">
-                <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6">
-              </div>
-              <div class="text-sm mt-10">
-                <a href="#" class="font-semibold text-gradient-to-r from-cyan-500 to-blue-500 hover:text-cyan-500">Forgot password?</a>
-              </div>
-            </div>
-      
-            <div>
-              <button type="submit" class="flex w-full justify-center rounded-[8px] bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-2 text-sm font-semibold leading-6 rounded-[8px] text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-600">
-               <a href="dashboard.html"> Login</a>
-            </button>
-            </div>
-          </form>
-      
-          <p class="mt-10 text-center text-sm text-gray-500">
-            Don’t have an account?
-            <a href="#" class="font-semibold leading-6 text-cyan hover:text-blue">Create Account</a>
-          </p>
-        </div>
+<body class="font-sans">
+
+  <div class="relative flex flex-col justify-center min-h-screen ">
+
+    <div
+      class="sm:mx-auto sm:w-full md:max-w-md p-10 bg-white rounded-xl shadow border border-zinc-100 flex flex-col gap-10 lg:shadow-lg md:shadow-none md:border-none sm:shadow-none sm:border-none">
+
+      <div class=" flex flex-col justify-center items-center h-auto">
+        <svg width="93" height="56" viewBox="0 0 93 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_867_3048)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M76.7044 7.13283V27.9031C76.4179 28.0549 76.1478 28.2359 75.8984 28.4431C74.1978 29.9441 72.4166 31.3513 70.5628 32.6584V7.13283H76.7044ZM15.3043 5.04532C15.2705 3.80078 15.718 2.59115 16.5536 1.66823C17.0012 1.16478 17.5462 0.757352 18.1558 0.470585C18.7653 0.183818 19.4267 0.0236733 20.0999 -0.000162207C20.8168 -0.0209653 21.5294 0.117943 22.1859 0.406502C22.8425 0.69506 23.4267 1.12604 23.8961 1.66823C24.3652 2.09522 24.738 2.61725 24.9895 3.19956C25.241 3.78187 25.3656 4.41109 25.355 5.04532C25.381 5.7424 25.2628 6.43735 25.0079 7.08668C24.753 7.73601 24.3669 8.32575 23.8736 8.81901C23.3804 9.31226 22.7906 9.69842 22.1413 9.95331C21.492 10.2082 20.797 10.3263 20.0999 10.3004C18.7702 10.2697 17.5021 9.73363 16.5536 8.80122C15.6906 7.74483 15.246 6.40813 15.3043 5.04532ZM12.5559 7.34238L20.4385 20.351L28.7401 7.34238H37.5334L24.7344 28.024V44.0873H16.2554V28.024L3.83512 7.34238H12.5559ZM30.4085 23.5266L36.6227 11.9768V17.2318H42.5064L42.3774 23.3171H36.6227V34.2382C36.6227 36.323 37.0391 37.712 37.872 38.4051C38.8621 39.1986 40.011 39.7703 41.241 40.0816L42.7804 40.412L39.9433 45.7477C39.7988 45.773 39.658 45.8163 39.5242 45.8766L37.6463 45.248C35.7327 44.6782 33.9961 43.6296 32.6008 42.2013C31.8203 41.2798 31.2508 40.1987 30.9324 39.0338C30.6199 37.695 30.479 36.3218 30.5133 34.9474V23.5266H30.4085ZM13.0959 37.7845C9.03373 40.4711 7.35191 42.6393 8.05043 44.2888C9.5227 48.0125 14.458 49.834 22.8564 49.7534C28.4872 49.6277 34.0851 48.857 39.5404 47.4564C39.691 47.411 39.8327 47.3401 39.9595 47.2468C43.0437 46.3764 46.128 45.4038 49.2122 44.3291C49.8041 44.2974 50.3831 44.1437 50.9128 43.8778C55.3402 42.212 59.6488 40.2462 63.8086 37.9941C66.115 36.7682 68.356 35.423 70.5225 33.9641C72.4139 32.7122 74.1924 31.4199 75.8581 30.0873C76.0761 29.7989 76.3503 29.5576 76.6641 29.3781C82.4189 24.3165 84.6004 20.0179 83.2087 16.4823C82.6231 15.37 81.4275 14.8837 79.6221 15.0234C87.1823 12.9924 91.4809 13.261 92.5179 15.8294C93.8236 19.1931 90.4868 24.6147 82.5075 32.0943C80.6161 33.6525 78.6549 35.1946 76.6238 36.7206C74.7324 38.0532 72.8142 39.3455 70.8691 40.5974C64.6727 44.106 58.1648 47.0335 51.4287 49.3424C38.8875 53.4852 27.6037 55.6962 17.5772 55.9757C7.44325 56.2712 1.71 54.6861 0.377432 51.2203C-0.960507 47.9373 3.27898 43.4587 13.0959 37.7845ZM68.8622 33.1582H48.4949C48.6799 34.6503 49.3057 36.0534 50.2922 37.1881C51.0013 37.8561 51.8423 38.3684 52.7613 38.6918C53.6802 39.0152 54.6567 39.1427 55.6279 39.066C57.5192 38.8726 58.9942 38.6631 60.0527 38.4374C57.0813 39.8398 54.0347 41.124 50.9128 42.29C50.2734 42.5103 49.7173 42.7199 49.2444 42.9187C47.2027 41.8268 45.4994 40.196 44.3199 38.2036C42.9398 36.0087 42.244 33.4527 42.321 30.8611C42.321 26.5625 43.573 23.0994 46.0769 20.4719C47.257 19.2714 48.6781 18.3346 50.2466 17.7234C51.8151 17.1121 53.4953 16.8402 55.1765 16.9256C57.6748 16.7362 60.1727 17.2975 62.3498 18.5375C64.4266 19.7024 66.11 21.4587 67.1857 23.583C68.3248 25.5281 68.8944 28.3921 68.8944 32.1749L68.8622 33.1582ZM55.3861 22.3579C53.5449 22.2952 51.751 22.948 50.3809 24.1795C49.7808 24.7147 49.3021 25.372 48.9769 26.1074C48.6516 26.8427 48.4873 27.6391 48.4949 28.4431H62.4385C62.4378 27.6061 62.2592 26.7787 61.9146 26.0159C61.57 25.253 61.0672 24.5721 60.4396 24.0183C59.023 22.8505 57.2192 22.2579 55.3861 22.3579Z"
+              fill="url(#paint0_linear_867_3048)" />
+          </g>
+          <defs>
+            <linearGradient id="paint0_linear_867_3048" x1="94.4389" y1="-0.00224595" x2="-0.0942521" y2="0.390316"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#5590F5" />
+              <stop offset="1" stop-color="#44BFFF" />
+            </linearGradient>
+            <clipPath id="clip0_867_3048">
+              <rect width="92.7288" height="56" fill="white" transform="translate(0.135742)" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Access Your Account</h2>
+        <p class="mt-2 px-5 text-center text-sm text-zinc-500">Please enter your login details to ensure a safe and
+          seamless experience.</p>
       </div>
 
+      <div class="sm:mx-auto sm:w-full sm:max-w-sm h-auto">
+        <form class="space-y-6" action="#" method="POST">
+          <div>
+            <label for="email" class="block font-bold text-sm  leading-6 text-gray-900">User ID</label>
+            <div class="placeholder mt-2 bg-zinc-100 inline-flex items-center w-full rounded-md overflow-hidden">
+              <div class="px-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.15869 13C3.0423 11.5262 4.97888 10.5175 8.00021 10.5175C11.0215 10.5175 12.9581 11.5262 13.8417 13M10.4002 5.4C10.4002 6.72548 9.32569 7.8 8.00021 7.8C6.67473 7.8 5.60021 6.72548 5.60021 5.4C5.60021 4.07452 6.67473 3 8.00021 3C9.32569 3 10.4002 4.07452 10.4002 5.4Z"
+                    stroke="#687175" stroke-width="1.4" stroke-linecap="round" />
+                </svg>
+              </div>
+              <input id="email" placeholder="Enter Your User ID" name="email" type="email" autocomplete="email" required
+                class="px-2 focus:border-zinc-100 focus:ring-zinc-100 focus:outline-none bg-zinc-100 w-full  border-0 py-2 placeholder:text-zinc-400 focus:text-zinc-950 text-sm   sm:text-sm sm:leading-6">
+
+            </div>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mt-5">
+              <label for="password" class="block text-sm font-bold leading-6 text-gray-900">Password</label>
+
+            </div>
+            <div class="placeholder mt-2 bg-zinc-100 inline-flex items-center  w-full rounded-md overflow-hidden">
+              <div class="px-2">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.00026 5.99991H6.08104M12.0008 14.4001L7.53897 10.0017C6.67553 10.3363 5.64392 10.2049 4.68558 9.92451C2.40321 9.25684 1.10205 6.89166 1.77935 4.64173C2.45665 2.3918 4.85593 1.10913 7.13829 1.7768C9.42066 2.44448 10.7218 4.80966 10.0445 7.05959L9.93825 7.63648L14.4001 12.0349V14.4001H12.0008Z"
+                    stroke="#687175" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+
+              <input id="password" placeholder="******" name="password" type="password" autocomplete="current-password"
+                required
+                class="px-2 focus:border-zinc-100 focus:ring-zinc-100 focus:outline-none bg-zinc-100 w-full  border-0 py-2 placeholder:text-zinc-400 focus:text-zinc-950 text-sm   sm:text-sm sm:leading-6">
+            </div>
+            <div class="text-sm mt-5">
+              <a href="#" class="font-semibold text-cyan hover:text-blue">Forgot password?</a>
+            </div>
+          </div>
+
+          <div class="py-5">
+            <button type="submit"
+              class="flex w-full justify-center rounded-[8px] bg-neutral-300  hover:bg-gradient-to-r hover:from-cyan hover:to-blue px-6 py-2 text-sm font-semibold leading-6 rounded-[8px] text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-600">
+              <a href="dashboard.html"> Login</a>
+            </button>
+          </div>
+        </form>
+
+        <p class="mt-5 text-center text-sm text-zinc-500">
+          Don’t have an account?
+          <a href="#" class="font-semibold leading-6 text-cyan-400 hover:text-blue">Create Account</a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
 
 </body>
 
