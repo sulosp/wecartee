@@ -1,12 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-
-
 module.exports = {
-  content: ["./public/*.{html,js}"],
+  content: ["./public/**/*.{html,js}"],
+  theme: {
 
-  theme: {     
-
-       container: {
+    container: {
       padding: {     
         DEFAULT: '1rem',  
         sm: '2rem',
@@ -28,7 +25,6 @@ module.exports = {
     },
   
     extend: {
-     
       colors:{
         primary: {
           100: '#D7E2FF',
@@ -164,13 +160,7 @@ module.exports = {
       dropShadow: {
         'sm' :'0 1px 2px rgba(0, 27, 63, 0.05)',
       },
-
-     
-
+    },
   },
-  plugins: [    
-      require('@tailwindcss/forms'),   
-  ],
-},
-
+  plugins: [],
 }
