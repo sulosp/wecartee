@@ -19,22 +19,26 @@
 </head>
 
 <body class="relative">
-    <header class="fixed top-0 left-0 z-50 w-full">
+
+    <!--header-->
+    <header class=" fixed top-0 left-0 z-50 w-full flex flex-col ">
         <div
-            class="announcement-bar inline-flex min-w-full gap-2 p-3 bg-secondary-900 justify-center items-center  flex-wrap">
+            class="announcement-bar inline-flex w-full gap-2 p-3 bg-secondary-900 justify-center items-center  flex-wrap text-wrap">
+            <div class="flex flex-wrap text-wrap justify-center items-center">
             <span
-                class="text-center bg-gradient-to-r from-blue-100 to-pink-100 bg-clip-text text-transparent text-body-md font-semibold">Your
+                class="text-center bg-gradient-to-r from-blue-100 to-pink-100 bg-clip-text text-transparent text-body-md font-semibold text-wrap">Your
                 Ultimate Destination for Seamless Online Shopping!</span>
+            </div>
             <button class="text-label-sm px-10 py-2 text-pink-100 rounded-50 border border-pink-100 ">Learn
                 More</button>
         </div>
 
 
-        <nav class="bg-white  "> 
-            <div class="mx-auto container px-6 lg:px-8">
-                <div class="relative flex h-16 items-center justify-between flex-wrap px-20">
+        <nav class="bg-white flex flex-col w-full "> 
+            <div class="inline-flex justify-between items-center lg:px-8 sm:px-0 w-full">
+                <div class="relative flex h-16 items-center justify-between flex-wrap px-20 w-full">
 
-                    <div class="flex flex-1 items-left justify-left sm:items-stretch sm:justify-start flex-wrap">
+                    <div class="flex items-left justify-left sm:items-stretch sm:justify-start flex-wrap ">
                         <a class="flex flex-shrink-0 items-center" href="#top">
                            <img src="./Assets/logo dark.svg" alt="logo">
 
@@ -54,10 +58,10 @@
 
 
                     <a href="https://wecartee-app.vercel.app/"
-                        class="text-title-md rounded-50 font-medium bg-primary-900 text-white px-30 py-12 max-sm:mr-50">Demo </a>
+                        class="text-title-md rounded-50 font-medium bg-primary-900 text-white px-30 py-12 max-sm:hidden">Demo </a>
 
                     <!-- Profile dropdown -->
-                    <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                    <div class="flex items-center sm:hidden">
                         <!-- Mobile menu button-->
                         <button type="button"
                             class="relative inline-flex items-center justify-center rounded-md p-2 mr-10 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -94,8 +98,8 @@
 
 
             <!-- Mobile menu, show/hide based on menu state. -->
-            <div id="mobile-menu" class="bg-gradient-to-r from-blue-400 to-pink-400 hidden" >
-                <div class="flex flex-col items-center justify-center align-items-center h-full">
+            <div id="mobile-menu" class="bg-gradient-to-r from-blue-400 to-pink-400 hidden " >
+                <div class="flex flex-col items-center justify-center align-items-center h-full ">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                     <a href="#features"
                         class=" text-white text-center  hover:text-title-lg px-10 py-10 text-body-lg font-medium min-w-full">Features</a>
@@ -103,10 +107,15 @@
                         class=" text-white text-center hover:text-title-lg px-10 py-10 text-body-lg font-medium min-w-full">Pricing</a>
                     <a href="#contact"
                         class=" text-white text-center  hover:text-title-lg px-10 py-10 text-body-lg font-medium min-w-full">Contact</a>
+                        <a href="https://wecartee-app.vercel.app/"
+                        class="text-title-md rounded-50 font-medium bg-primary-900 text-white px-30 py-12 min-w-full">Demo</a>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
     <main>
         <section class="container mx-auto lg:py-150 sm:py-80 max-sm:py-80 mt-100" id="#top">
             <div class="container mx-auto xl:px-150 flex flex-col items-center justify-center align-content-center">

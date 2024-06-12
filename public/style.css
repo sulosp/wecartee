@@ -630,11 +630,6 @@ video {
   inset: -0.125rem;
 }
 
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -782,10 +777,6 @@ video {
   max-width: max-content;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -870,6 +861,10 @@ video {
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .rounded-50 {
@@ -1036,11 +1031,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .py-10 {
@@ -1210,6 +1200,14 @@ video {
 }
 
 /* custom css starts*/
+
+#fixed-header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
 
 .hero-button {
   display: flex;
@@ -1457,8 +1455,8 @@ video {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:mr-50 {
-    margin-right: 50px;
+  .max-sm\:hidden {
+    display: none;
   }
 
   .max-sm\:w-full {
@@ -1522,6 +1520,11 @@ video {
 
   .sm\:justify-start {
     justify-content: flex-start;
+  }
+
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sm\:py-80 {
