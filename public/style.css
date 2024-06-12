@@ -610,16 +610,16 @@ video {
   border-width: 0;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .-inset-0 {
@@ -1201,12 +1201,9 @@ video {
 
 /* custom css starts*/
 
-#fixed-header{
-  position:fixed;
+.sticky {
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
 }
 
 .hero-button {

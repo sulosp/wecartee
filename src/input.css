@@ -4,14 +4,10 @@
 
 /* custom css starts*/
 
-#fixed-header{
-  position:fixed;
+.sticky {
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
 }
-
 
 .hero-button {
   display: flex;
